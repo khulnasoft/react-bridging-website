@@ -1,0 +1,93 @@
+# [source] [dest] [status?]
+# /foo /bar
+# /foo /bar 301
+# /foo/* /bar/* 301
+
+########################################################################
+# v7 release redirects from v6 urls
+/en/main                                     /
+/en/main/start/*                             /6.28.0/start/*
+/en/main/upgrading/*                         /6.28.0/upgrading/*
+/en/main/guides/*                            /6.28.0/guides/*
+/en/main/routers/create-browser-router       https://api.reactbridging.com/v7/functions/react_bridging.createBrowserRouter.html
+/en/main/routers/create-hash-router          https://api.reactbridging.com/v7/functions/react_bridging.createHashRouter.html
+/en/main/routers/create-memory-router        https://api.reactbridging.com/v7/functions/react_bridging.createMemoryRouter.html
+/en/main/routers/create-static-handler       https://api.reactbridging.com/v7/functions/react_bridging.createStaticHandler
+/en/main/routers/create-static-router        https://api.reactbridging.com/v7/functions/react_bridging.createStaticRouter
+/en/main/routers/router-provider             https://api.reactbridging.com/v7/functions/react_bridging.RouterProvider
+/en/main/routers/static-router-provider      https://api.reactbridging.com/v7/functions/react_bridging.StaticRouterProvider
+/en/main/router-components/browser-router    https://api.reactbridging.com/v7/functions/react_bridging.BrowserRouter.html
+/en/main/router-components/hash-router       https://api.reactbridging.com/v7/functions/react_bridging.HashRouter.html
+/en/main/router-components/memory-router     https://api.reactbridging.com/v7/functions/react_bridging.MemoryRouter.html
+/en/main/router-components/router            https://api.reactbridging.com/v7/functions/react_bridging.Router.html
+/en/main/router-components/static-router     https://api.reactbridging.com/v7/functions/react_bridging.StaticRouter.html
+/en/main/components/await                    https://api.reactbridging.com/v7/functions/react_bridging.Await.html
+/en/main/components/form                     https://api.reactbridging.com/v7/functions/react_bridging.Form.html
+/en/main/components/link                     https://api.reactbridging.com/v7/functions/react_bridging.Link.html
+/en/main/components/nav-link                 https://api.reactbridging.com/v7/functions/react_bridging.NavLink.html
+/en/main/components/navigate                 https://api.reactbridging.com/v7/functions/react_bridging.Navigate.html
+/en/main/components/outlet                   https://api.reactbridging.com/v7/functions/react_bridging.Outlet.html
+/en/main/components/route                    https://api.reactbridging.com/v7/functions/react_bridging.Route.html
+/en/main/components/routes                   https://api.reactbridging.com/v7/functions/react_bridging.Routes.html
+/en/main/components/scroll-restoration       https://api.reactbridging.com/v7/functions/react_bridging.ScrollRestoration.html
+/en/main/hooks/use-action-data               https://api.reactbridging.com/v7/functions/react_bridging.useActionData.html
+/en/main/hooks/use-async-error               https://api.reactbridging.com/v7/functions/react_bridging.useAsyncError.html
+/en/main/hooks/use-async-value               https://api.reactbridging.com/v7/functions/react_bridging.useAsyncValue.html
+/en/main/hooks/use-before-unload             https://api.reactbridging.com/v7/functions/react_bridging.useBeforeUnload.html
+/en/main/hooks/use-blocker                   https://api.reactbridging.com/v7/functions/react_bridging.useBlocker.html
+/en/main/hooks/use-fetcher                   https://api.reactbridging.com/v7/functions/react_bridging.useFetcher.html
+/en/main/hooks/use-fetchers                  https://api.reactbridging.com/v7/functions/react_bridging.useFetchers.html
+/en/main/hooks/use-form-action               https://api.reactbridging.com/v7/functions/react_bridging.useFormAction.html
+/en/main/hooks/use-href                      https://api.reactbridging.com/v7/functions/react_bridging.useHref.html
+/en/main/hooks/use-in-router-context         https://api.reactbridging.com/v7/functions/react_bridging.useInRouterContext.html
+/en/main/hooks/use-link-click-handler        https://api.reactbridging.com/v7/functions/react_bridging.useLinkClickHandler.html
+/en/main/hooks/use-loader-data               https://api.reactbridging.com/v7/functions/react_bridging.useLoaderData.html
+/en/main/hooks/use-location                  https://api.reactbridging.com/v7/functions/react_bridging.useLocation.html
+/en/main/hooks/use-match                     https://api.reactbridging.com/v7/functions/react_bridging.useMatch.html
+/en/main/hooks/use-matches                   https://api.reactbridging.com/v7/functions/react_bridging.useMatches.html
+/en/main/hooks/use-navigate                  https://api.reactbridging.com/v7/functions/react_bridging.useNavigate.html
+/en/main/hooks/use-navigation-type           https://api.reactbridging.com/v7/functions/react_bridging.useNavigationType.html
+/en/main/hooks/use-navigation                https://api.reactbridging.com/v7/functions/react_bridging.useNavigation.html
+/en/main/hooks/use-outlet-context            https://api.reactbridging.com/v7/functions/react_bridging.useOutletContext.html
+/en/main/hooks/use-outlet                    https://api.reactbridging.com/v7/functions/react_bridging.useOutlet.html
+/en/main/hooks/use-params                    https://api.reactbridging.com/v7/functions/react_bridging.useParams.html
+/en/main/hooks/use-prompt                    https://api.reactbridging.com/v7/functions/react_bridging.unstable_usePrompt.html
+/en/main/hooks/use-resolved-path             https://api.reactbridging.com/v7/functions/react_bridging.useResolvedPath.html
+/en/main/hooks/use-revalidator               https://api.reactbridging.com/v7/functions/react_bridging.useRevalidator.html
+/en/main/hooks/use-route-error               https://api.reactbridging.com/v7/functions/react_bridging.useRouteError.html
+/en/main/hooks/use-route-loader-data         https://api.reactbridging.com/v7/functions/react_bridging.useRouteLoaderData.html
+/en/main/hooks/use-routes                    https://api.reactbridging.com/v7/functions/react_bridging.useRoutes.html
+/en/main/hooks/use-search-params             https://api.reactbridging.com/v7/functions/react_bridging.useSearchParams.html
+/en/main/hooks/use-submit                    https://api.reactbridging.com/v7/functions/react_bridging.useSubmit.html
+/en/main/hooks/use-view-transition-state     https://api.reactbridging.com/v7/functions/react_bridging.useViewTransitionState.html
+/en/main/utils/create-routes-from-children   https://api.reactbridging.com/v7/functions/react_bridging.createRoutesFromChildren.html
+/en/main/utils/create-routes-from-elements   https://api.reactbridging.com/v7/functions/react_bridging.createRoutesFromElements.html
+/en/main/utils/create-search-params          https://api.reactbridging.com/v7/functions/react_bridging.createSearchParams.html
+/en/main/utils/defer                         https://api.reactbridging.com/v7/functions/react_bridging.data.html
+/en/main/utils/generate-path                 https://api.reactbridging.com/v7/functions/react_bridging.generatePath.html
+/en/main/utils/is-route-error-response       https://api.reactbridging.com/v7/functions/react_bridging.isRouteErrorResponse.html
+/en/main/utils/location                      https://api.reactbridging.com/v7/interfaces/react_bridging.Location.html
+/en/main/utils/match-path                    https://api.reactbridging.com/v7/functions/react_bridging.matchPath.html
+/en/main/utils/match-routes                  https://api.reactbridging.com/v7/functions/react_bridging.matchRoutes.html
+/en/main/utils/render-matches                https://api.reactbridging.com/v7/functions/react_bridging.renderMatches.html
+/en/main/utils/resolve-path                  https://api.reactbridging.com/v7/functions/react_bridging.resolvePath.html
+/en/main/route/route                         https://api.reactbridging.com/v7/types/react_bridging.RouteObject.html
+/en/main/route/action                        https://api.reactbridging.com/v7/interfaces/react_bridging.ActionFunction.html
+/en/main/route/error-element                 https://api.reactbridging.com/v7/interfaces/react_bridging.NonIndexRouteObject.html#errorElement
+/en/main/route/hydrate-fallback-element      https://api.reactbridging.com/v7/interfaces/react_bridging.NonIndexRouteObject.html#hydrateFallbackElement
+/en/main/route/lazy                          https://api.reactbridging.com/v7/interfaces/react_bridging.LazyRouteFunction.html
+/en/main/route/loader                        https://api.reactbridging.com/v7/types/react_bridging.LoaderFunction.html   
+/en/main/route/should-revalidate             https://api.reactbridging.com/v7/interfaces/react_bridging.ShouldRevalidateFunction.html
+
+# API reference redirects
+/reference /en/main/reference
+
+# removed `/docs` prefix
+/docs/en/v6/* /en/v6.3.0/*
+/docs/* /*
+
+# Router v5 Redirects
+/core/* https://v5.reactbridging.com/core/*
+/web/* https://v5.reactbridging.com/web/*
+/native/* https://v5.reactbridging.com/native/*
+
