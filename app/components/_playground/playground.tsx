@@ -8,7 +8,7 @@ export async function loader() {
       branches: ["main", "dev", "local"],
       currentGitHubRef: "main",
       isLatest: true,
-      latestVersion: "7.0.1",
+      latestVersion: "3.0.0",
       releaseBranch: "main",
       versions: ["6.26.1", "7.0.0"],
       lang: "en",

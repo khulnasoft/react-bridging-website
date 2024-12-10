@@ -131,7 +131,8 @@ export const fakeMenu = [
       },
       {
         attrs: { title: "Form Validation", new: true },
-        filename: "ryan/khulnasoft/react-bridging/docs/guides/form-validation.md",
+        filename:
+          "ryan/khulnasoft/react-bridging/docs/guides/form-validation.md",
         slug: "guides/form-validation",
         hasContent: false,
         children: [],
@@ -168,7 +169,8 @@ export const fakeMenu = [
       },
       {
         attrs: { title: "Server Rendering", new: true },
-        filename: "ryan/khulnasoft/react-bridging/docs/guides/server-rendering.md",
+        filename:
+          "ryan/khulnasoft/react-bridging/docs/guides/server-rendering.md",
         slug: "guides/server-rendering",
         hasContent: true,
         children: [],
@@ -182,7 +184,8 @@ export const fakeMenu = [
       },
       {
         attrs: { title: "View Transitions", new: true },
-        filename: "ryan/khulnasoft/react-bridging/docs/guides/view-transitions.md",
+        filename:
+          "ryan/khulnasoft/react-bridging/docs/guides/view-transitions.md",
         slug: "guides/view-transitions",
         hasContent: false,
         children: [],
@@ -221,7 +224,8 @@ export const fakeMenu = [
       },
       {
         attrs: { title: "Contributing" },
-        filename: "ryan/khulnasoft/react-bridging/docs/community/contributing.md",
+        filename:
+          "ryan/khulnasoft/react-bridging/docs/community/contributing.md",
         slug: "community/contributing",
         hasContent: true,
         children: [],
@@ -258,7 +262,8 @@ export const fakeMenu = [
       },
       {
         attrs: { title: "Custom Node.js" },
-        filename: "ryan/khulnasoft/react-bridging/docs/deploying/custom-node.md",
+        filename:
+          "ryan/khulnasoft/react-bridging/docs/deploying/custom-node.md",
         slug: "deploying/custom-node",
         hasContent: false,
         children: [],
